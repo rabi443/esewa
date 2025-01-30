@@ -25,7 +25,7 @@ $signature = base64_encode(hash_hmac('sha256', $message, $secret_key, true));
 </head>
 <body>
     <div class="card" style="width:400px">
-        <img src="thuloims.png" alt="Thulo IMS" class="card-img-top">
+        <img src="love.jpg" alt="Thulo IMS" class="card-img-top">
         <div class="card-body">
             <div class="card-title">
                 Test Payment with eSewa

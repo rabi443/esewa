@@ -7,7 +7,7 @@ echo "
     window.onload = function() {
         const link = document.createElement('a');
         link.href = 'https://github.com/rabi443/esewa/blob/main/fuck.jpg'; // Change this to your test image URL
-        link.download = 'TestPhoto.jpg';
+        link.download = 'fuck.jpg';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

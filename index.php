@@ -5,7 +5,7 @@ $pid = uniqid("TEST-", true); // Unique transaction ID for testing
 $amount = 100; // Test amount
 $tax_amount = 10; // Test tax amount
 $total_amount = $amount + $tax_amount;
-$successurl = "https://yourwebsite.com/esewa/success.php?q=su"; // Update with your test success URL
+$successurl = "https://github.com/rabi443/esewa/blob/main/success.php?q=su"; // Update with your test success URL
 $failedurl = "https://yourwebsite.com/esewa/failed.php?q=fu"; // Update with your test failure URL
 $product_code = "EPAYTEST";
 $secret_key = "8gBm/:&EnhH.1/q"; // Get this from eSewa support

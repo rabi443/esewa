@@ -2,8 +2,8 @@
 $epay_url = "https://rc-epay.esewa.com.np/api/epay/main/v2/form"; // Test endpoint
 
 $pid = uniqid("TEST-", true); // Unique transaction ID for testing
-$amount = 100; // Test amount
-$tax_amount = 10; // Test tax amount
+$amount = 3; // Test amount
+$tax_amount = 2; // Test tax amount
 $total_amount = $amount + $tax_amount;
 $successurl = "https://github.com/rabi443/esewa/blob/main/success.php?q=su"; // Update with your test success URL
 $failedurl = "https://github.com/rabi443/esewa/blob/main/failed.php?q=fu"; // Update with your test failure URL

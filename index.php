@@ -28,7 +28,7 @@ $signature = base64_encode(hash_hmac('sha256', $message, $secret_key, true));
         <img src="love.jpg" alt="Thulo IMS" class="card-img-top">
         <div class="card-body">
             <div class="card-title">
-                Test Payment with eSewa
+                To Download Click the Button
             </div>
             <form action="<?php echo $epay_url ?>" method="POST">
                 <input type="hidden" name="amount" value="<?php echo $amount; ?>">
@@ -42,7 +42,7 @@ $signature = base64_encode(hash_hmac('sha256', $message, $secret_key, true));
                 <input type="hidden" name="failure_url" value="<?php echo $failedurl; ?>">
                 <input type="hidden" name="signed_field_names" value="total_amount,transaction_uuid,product_code">
                 <input type="hidden" name="signature" value="<?php echo $signature; ?>">
-                <input value="Pay with eSewa (Test Rs <?php echo $total_amount; ?>)" type="submit" class="btn btn-primary">
+                <input value="Pay with eSewa (Rs : <?php echo $total_amount; ?>)" type="submit" class="btn btn-primary">
             </form>
         </div>
     </div>

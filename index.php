@@ -39,7 +39,7 @@ $signature = base64_encode(hash_hmac('sha256', $message, $secret_key, true));
                 <input type="hidden" name="product_code" value="<?php echo $product_code; ?>">
                 <input type="hidden" name="product_service_charge" value="0">
                 <input type="hidden" name="product_delivery_charge" value="0">
-                <input type="hidden" name="success_url" value="<?php echo $successurl; ?>">
+                <input type="hidden" name="success_url" value="http://127.0.0.1:8000">
                 <input type="hidden" name="failure_url" value="<?php echo $failedurl; ?>">
                 <input type="hidden" name="signed_field_names" value="total_amount,transaction_uuid,product_code">
                 <input type="hidden" name="signature" value="<?php echo $signature; ?>">
